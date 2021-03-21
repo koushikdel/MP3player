@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00D51A2260655FD00C3CCDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D51A1260655FD00C3CCDC /* AppDelegate.swift */; };
+		C00D51A4260655FD00C3CCDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D51A3260655FD00C3CCDC /* SceneDelegate.swift */; };
+		C00D51A6260655FD00C3CCDC /* AudioPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D51A5260655FD00C3CCDC /* AudioPlayVC.swift */; };
+		C00D51A9260655FD00C3CCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00D51A7260655FD00C3CCDC /* Main.storyboard */; };
+		C00D51AB2606560400C3CCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00D51AA2606560400C3CCDC /* Assets.xcassets */; };
+		C00D51AE2606560400C3CCDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00D51AC2606560400C3CCDC /* LaunchScreen.storyboard */; };
+		C00D51B92606560400C3CCDC /* Mp3playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D51B82606560400C3CCDC /* Mp3playerTests.swift */; };
+		C00D51C42606560400C3CCDC /* Mp3playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D51C32606560400C3CCDC /* Mp3playerUITests.swift */; };
+		C00D51D42606711400C3CCDC /* Urltableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D51D32606711400C3CCDC /* Urltableview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C00D51B52606560400C3CCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00D5196260655FC00C3CCDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00D519D260655FC00C3CCDC;
+			remoteInfo = Mp3player;
+		};
+		C00D51C02606560400C3CCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00D5196260655FC00C3CCDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00D519D260655FC00C3CCDC;
+			remoteInfo = Mp3player;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C00D519E260655FD00C3CCDC /* Mp3player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mp3player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00D51A1260655FD00C3CCDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C00D51A3260655FD00C3CCDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C00D51A5260655FD00C3CCDC /* AudioPlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayVC.swift; sourceTree = "<group>"; };
+		C00D51A8260655FD00C3CCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C00D51AA2606560400C3CCDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C00D51AD2606560400C3CCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C00D51AF2606560400C3CCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00D51B42606560400C3CCDC /* Mp3playerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mp3playerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00D51B82606560400C3CCDC /* Mp3playerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mp3playerTests.swift; sourceTree = "<group>"; };
+		C00D51BA2606560400C3CCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00D51BF2606560400C3CCDC /* Mp3playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mp3playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00D51C32606560400C3CCDC /* Mp3playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mp3playerUITests.swift; sourceTree = "<group>"; };
+		C00D51C52606560400C3CCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00D51D32606711400C3CCDC /* Urltableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urltableview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00D519B260655FC00C3CCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00D51B12606560400C3CCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00D51BC2606560400C3CCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00D5195260655FC00C3CCDC = {
+			isa = PBXGroup;
+			children = (
+				C00D51A0260655FD00C3CCDC /* Mp3player */,
+				C00D51B72606560400C3CCDC /* Mp3playerTests */,
+				C00D51C22606560400C3CCDC /* Mp3playerUITests */,
+				C00D519F260655FD00C3CCDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C00D519F260655FD00C3CCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00D519E260655FD00C3CCDC /* Mp3player.app */,
+				C00D51B42606560400C3CCDC /* Mp3playerTests.xctest */,
+				C00D51BF2606560400C3CCDC /* Mp3playerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00D51A0260655FD00C3CCDC /* Mp3player */ = {
+			isa = PBXGroup;
+			children = (
+				C00D51A1260655FD00C3CCDC /* AppDelegate.swift */,
+				C00D51A3260655FD00C3CCDC /* SceneDelegate.swift */,
+				C00D51A5260655FD00C3CCDC /* AudioPlayVC.swift */,
+				C00D51A7260655FD00C3CCDC /* Main.storyboard */,
+				C00D51AA2606560400C3CCDC /* Assets.xcassets */,
+				C00D51AC2606560400C3CCDC /* LaunchScreen.storyboard */,
+				C00D51AF2606560400C3CCDC /* Info.plist */,
+				C00D51D32606711400C3CCDC /* Urltableview.swift */,
+			);
+			path = Mp3player;
+			sourceTree = "<group>";
+		};
+		C00D51B72606560400C3CCDC /* Mp3playerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C00D51B82606560400C3CCDC /* Mp3playerTests.swift */,
+				C00D51BA2606560400C3CCDC /* Info.plist */,
+			);
+			path = Mp3playerTests;
+			sourceTree = "<group>";
+		};
+		C00D51C22606560400C3CCDC /* Mp3playerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C00D51C32606560400C3CCDC /* Mp3playerUITests.swift */,
+				C00D51C52606560400C3CCDC /* Info.plist */,
+			);
+			path = Mp3playerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00D519D260655FC00C3CCDC /* Mp3player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00D51C82606560400C3CCDC /* Build configuration list for PBXNativeTarget "Mp3player" */;
+			buildPhases = (
+				C00D519A260655FC00C3CCDC /* Sources */,
+				C00D519B260655FC00C3CCDC /* Frameworks */,
+				C00D519C260655FC00C3CCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mp3player;
+			productName = Mp3player;
+			productReference = C00D519E260655FD00C3CCDC /* Mp3player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C00D51B32606560400C3CCDC /* Mp3playerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00D51CB2606560400C3CCDC /* Build configuration list for PBXNativeTarget "Mp3playerTests" */;
+			buildPhases = (
+				C00D51B02606560400C3CCDC /* Sources */,
+				C00D51B12606560400C3CCDC /* Frameworks */,
+				C00D51B22606560400C3CCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C00D51B62606560400C3CCDC /* PBXTargetDependency */,
+			);
+			name = Mp3playerTests;
+			productName = Mp3playerTests;
+			productReference = C00D51B42606560400C3CCDC /* Mp3playerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C00D51BE2606560400C3CCDC /* Mp3playerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00D51CE2606560400C3CCDC /* Build configuration list for PBXNativeTarget "Mp3playerUITests" */;
+			buildPhases = (
+				C00D51BB2606560400C3CCDC /* Sources */,
+				C00D51BC2606560400C3CCDC /* Frameworks */,
+				C00D51BD2606560400C3CCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C00D51C12606560400C3CCDC /* PBXTargetDependency */,
+			);
+			name = Mp3playerUITests;
+			productName = Mp3playerUITests;
+			productReference = C00D51BF2606560400C3CCDC /* Mp3playerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00D5196260655FC00C3CCDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Koushik Das Sharma";
+				TargetAttributes = {
+					C00D519D260655FC00C3CCDC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C00D51B32606560400C3CCDC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C00D519D260655FC00C3CCDC;
+					};
+					C00D51BE2606560400C3CCDC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C00D519D260655FC00C3CCDC;
+					};
+				};
+			};
+			buildConfigurationList = C00D5199260655FC00C3CCDC /* Build configuration list for PBXProject "Mp3player" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00D5195260655FC00C3CCDC;
+			productRefGroup = C00D519F260655FD00C3CCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00D519D260655FC00C3CCDC /* Mp3player */,
+				C00D51B32606560400C3CCDC /* Mp3playerTests */,
+				C00D51BE2606560400C3CCDC /* Mp3playerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00D519C260655FC00C3CCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00D51AE2606560400C3CCDC /* LaunchScreen.storyboard in Resources */,
+				C00D51AB2606560400C3CCDC /* Assets.xcassets in Resources */,
+				C00D51A9260655FD00C3CCDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00D51B22606560400C3CCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00D51BD2606560400C3CCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00D519A260655FC00C3CCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00D51A6260655FD00C3CCDC /* AudioPlayVC.swift in Sources */,
+				C00D51A2260655FD00C3CCDC /* AppDelegate.swift in Sources */,
+				C00D51A4260655FD00C3CCDC /* SceneDelegate.swift in Sources */,
+				C00D51D42606711400C3CCDC /* Urltableview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00D51B02606560400C3CCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00D51B92606560400C3CCDC /* Mp3playerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00D51BB2606560400C3CCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00D51C42606560400C3CCDC /* Mp3playerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C00D51B62606560400C3CCDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C00D519D260655FC00C3CCDC /* Mp3player */;
+			targetProxy = C00D51B52606560400C3CCDC /* PBXContainerItemProxy */;
+		};
+		C00D51C12606560400C3CCDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C00D519D260655FC00C3CCDC /* Mp3player */;
+			targetProxy = C00D51C02606560400C3CCDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C00D51A7260655FD00C3CCDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00D51A8260655FD00C3CCDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C00D51AC2606560400C3CCDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00D51AD2606560400C3CCDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C00D51C62606560400C3CCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C00D51C72606560400C3CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00D51C92606560400C3CCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX5WJ3AL8B;
+				INFOPLIST_FILE = Mp3player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koushik.Mp3player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C00D51CA2606560400C3CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX5WJ3AL8B;
+				INFOPLIST_FILE = Mp3player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koushik.Mp3player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C00D51CC2606560400C3CCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX5WJ3AL8B;
+				INFOPLIST_FILE = Mp3playerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koushik.Mp3playerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mp3player.app/Mp3player";
+			};
+			name = Debug;
+		};
+		C00D51CD2606560400C3CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX5WJ3AL8B;
+				INFOPLIST_FILE = Mp3playerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koushik.Mp3playerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mp3player.app/Mp3player";
+			};
+			name = Release;
+		};
+		C00D51CF2606560400C3CCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX5WJ3AL8B;
+				INFOPLIST_FILE = Mp3playerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koushik.Mp3playerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mp3player;
+			};
+			name = Debug;
+		};
+		C00D51D02606560400C3CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX5WJ3AL8B;
+				INFOPLIST_FILE = Mp3playerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koushik.Mp3playerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mp3player;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00D5199260655FC00C3CCDC /* Build configuration list for PBXProject "Mp3player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00D51C62606560400C3CCDC /* Debug */,
+				C00D51C72606560400C3CCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00D51C82606560400C3CCDC /* Build configuration list for PBXNativeTarget "Mp3player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00D51C92606560400C3CCDC /* Debug */,
+				C00D51CA2606560400C3CCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00D51CB2606560400C3CCDC /* Build configuration list for PBXNativeTarget "Mp3playerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00D51CC2606560400C3CCDC /* Debug */,
+				C00D51CD2606560400C3CCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00D51CE2606560400C3CCDC /* Build configuration list for PBXNativeTarget "Mp3playerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00D51CF2606560400C3CCDC /* Debug */,
+				C00D51D02606560400C3CCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00D5196260655FC00C3CCDC /* Project object */;
+}
